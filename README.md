@@ -43,12 +43,15 @@ The current version uses deterministic demo scenes and catalog data so the compl
 
 ```bash
 cd visioncart-ai
+pnpm install
+pnpm dev
 
 To run the production checks:
 Bash
 cd visioncart-ai
 pnpm check
 pnpm build
+
 Demo flow
 Start the scene.
 Pause the frame.
@@ -59,18 +62,24 @@ Compare products.
 Add a product to the cart.
 Open the QR handoff to continue on mobile.
 Use Judge Mode for the complete guided walkthrough.
+
+
 Project links
 Live demo:
+
 https://visioncart-fnur5vvg.manus.space
 GitHub repository:
+
 https://github.com/unnatigautam48-wq/visioncart-ai
 Hackathon:
+
 Build, Ship, Shape: Amazon Developer Hackathon
 Recommended track:
+
 Fire TV
+
 Important scope note
 This repository currently contains a deterministic client-side demo created for reliable hackathon judging. It does not claim live Amazon Bedrock or Amazon Rekognition API calls unless those integrations are added and documented in the source code.
+
 License
 This project is released under the MIT License.
-pnpm install
-pnpm dev
